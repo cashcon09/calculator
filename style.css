@@ -1,0 +1,33 @@
+.container{
+    flex: 1;
+    display: flex;
+
+}
+.rows{
+    flex: 1;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+body{
+    background-color: rgb(126, 111, 111);
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+}
+
+.rows.result{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#p1{
+    height: auto;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
