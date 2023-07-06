@@ -69,7 +69,15 @@ let equals = document.querySelector("#equals");
 equals.addEventListener('click', function(e){
     console.log(num1);
     console.log(operate(num1));
+    text.textContent = operate(num1);
 })
+
+let clear = document.querySelector('.clear');
+clear.addEventListener('click', function(e){
+    num1 = '';
+    text.textContent = '';
+});
+
 /*
 let operators = document.querySelectorAll('.operator');
 let operator1 = '';
